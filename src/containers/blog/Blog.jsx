@@ -5,7 +5,7 @@ import { blogImg1, blogImg2, blogImg3, blogImg4, blogImg5 } from './import';
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding">
+    <div className="gpt3__blog section__padding" id='blog'>
       <div className='gpt3__blog-heading'>
         <h1 className='gradient__text'>
           A lot is happening, <br /> We are blogging about it.
