@@ -1,0 +1,38 @@
+.gpt3__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;  
+}
+
+.gpt3__brand div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.gpt3__brand div:nth-child(1) img {
+  width: 71.1px;
+  height: 24.15px;
+} 
+
+.gpt3__brand div:nth-child(2) img {
+  width: 95.83px;
+  height: 24.15px;
+}
+
+.gpt3__brand div:nth-child(3) img {
+  width: 112.44px;
+  height: 24.15px;
+}
+
+.gpt3__brand div:nth-child(4) img {
+  width: 120.74px;
+  height: 24.15px;
+}
+
+.gpt3__brand div:nth-child(5) img {
+  width: 84.52px;
+  height: 24.15px;
+}

@@ -1,0 +1,142 @@
+.gpt3__footer {
+  background: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__footer p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  max-width: 210px;
+}
+
+.gpt3__footer-join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.gpt3__footer-join h1 {
+  max-width: 900px;
+  font-family: var(--font-family);
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.gpt3__footer-join div {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.gpt3__footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.gpt3__footer-content_brand {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.gpt3__footer-content_brand p {
+    max-width: 160px;
+}
+
+.gpt3__footer-content_menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gpt3__footer-content_menu p {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.gpt3__footer-content_menu > div > p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.gpt3__footer-rights {
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .gpt3__footer-join {
+        gap: 2rem;
+    }
+
+    .gpt3__footer-join h1 {
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    .gpt3__footer-join div {
+        font-size: 12px;
+        padding: 0.5rem;
+    }
+
+    .gpt3__footer-content  {
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .gpt3__footer-content_menu {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gpt3__footer p {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 0.5rem;
+    }
+
+    .gpt3__footer-join {
+        gap: 1.5rem;
+    }
+
+    .gpt3__footer-join h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .gpt3__footer-join div {
+        font-size: 10px;
+        padding: 0.35rem;
+    }
+
+    .gpt3__footer-content_brand {
+        text-align: center;
+        align-items: center;
+    }
+
+    .gpt3__footer-content_menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+}
